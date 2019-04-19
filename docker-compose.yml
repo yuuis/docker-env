@@ -1,8 +1,8 @@
 version: "2"
 
-services: 
+services:
   app:
-    build: 
+    build:
       context: .
       dockerfile: ./Dockerfile
     volumes: 
